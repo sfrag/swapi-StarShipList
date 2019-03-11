@@ -15,7 +15,15 @@
         return service;
 
         function GetStarships() {
-
+            var req = {
+                method: 'GET',
+                url: 'https://swapi.co/api/starships/',
+                headers: {
+                    'Authorization': 'none',
+                    'Content-Type': 'application/json'
+                }
+            }
+            return $http(req).then(handleSuccess, handleError('Error getting starships'));
         }
 
         // private functions
