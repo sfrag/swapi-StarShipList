@@ -15,7 +15,9 @@
         getShips();
 
         function getShips() {
-            StarshipService.GetStarships();
+            StarshipService.GetStarships().then((res) => {
+                console.log(res.results);
+            })
         }
     }
 })();
