@@ -14,10 +14,10 @@
 
         return service;
 
-        function GetStarships() {
+        function GetStarships(pagenum) {
             var req = {
                 method: 'GET',
-                url: 'https://swapi.co/api/starships/',
+                url: 'https://swapi.co/api/starships/?page=' + pagenum ,
                 headers: {
                     'Authorization': 'none',
                     'Content-Type': 'application/json'
