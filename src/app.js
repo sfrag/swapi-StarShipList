@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('app', ['ngRoute', 'ngCookies', 'starshipList'])
+        .module('app', ['ngRoute', 'ngCookies', 'starshipList', 'starship'])
         .config(config)
         .run(run);
 
