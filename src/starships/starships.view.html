@@ -1,5 +1,5 @@
 <div class="col-md-6 col-md-offset-3">
     <div ng-controller="StarshipsController as ctrl">
-        <starship-list data="ctrl.shipList"></starship-list>
+        <starship-list next-sh="ctrl.getShips()" data="ctrl.shipList"></starship-list>
     </div>
 </div>

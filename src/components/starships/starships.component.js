@@ -5,8 +5,9 @@
         .module('starshipList', [])
         .component('starshipList', {
             bindings: {
-                data: '='
+                data: '<',
+                nextSh: '&'
             },
-            templateUrl: './components/starships/starships.component.html',
+            templateUrl: './components/starships/starships.component.html'
         });
 })();
