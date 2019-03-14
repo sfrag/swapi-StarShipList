@@ -8,6 +8,6 @@
                 data: '<',
                 nextSh: '&'
             },
-            templateUrl: './components/starships/starships.component.html'
+            templateUrl: './components/starshiplist/starshiplist.component.html'
         });
 })();

@@ -1,6 +1,8 @@
 <ul class="list-group">
     <li ng-repeat="ship in $ctrl.data" class="list-group-item">
-        {{ship['name']}}
+        <h4>{{ship['name']}}</h4>
+        <starship data="ship"></starship>
     </li>
 </ul>
+
 <button type="button" class="btn btn-primary" ng-click="$ctrl.nextSh()">Más datos</button>
