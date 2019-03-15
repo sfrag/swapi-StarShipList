@@ -5,3 +5,30 @@
 .navbar-brand img {
     height: 25px;
 }
+
+.starship-card {
+    height: 200px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.starship-card h5 {
+    padding: 20px 5px 5px 5px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.starship-image {
+    display: flex;
+    justify-content: center;
+
+}
+
+.starship-image img {
+    width: 90%;
+    height: 100%;
+}
+
+.loadships-button{
+    padding-top: 20px;
+}

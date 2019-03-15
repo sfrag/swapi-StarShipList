@@ -1,10 +1,11 @@
 <div class="row">
     <div ng-repeat="ship in $ctrl.data" class="col-xs-6 col-md-3">
-        <div style="height:200px">
-            <h4>{{ship['name']}}</h4>
+        <div class="starship-card">
+            <h5>{{ship['name']}}</h5>
             <starship data="ship"></starship>
         </div>
     </div>
 </div>
-
-<button type="button" class="btn btn-primary" ng-click="$ctrl.nextSh()">Más datos</button>
+<div class="loadships-button">
+    <button type="button" class="btn btn-primary" ng-click="$ctrl.nextSh()">Más datos</button>
+</div>
